@@ -1,0 +1,50 @@
+.members {
+    margin: 0;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contributor {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0 0 20px 5px rgb(43, 43, 43);
+}
+
+.contributor img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.tagline {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.section p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+}

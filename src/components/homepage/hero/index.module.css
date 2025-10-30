@@ -1,0 +1,91 @@
+.icon {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  /* fallback for some browsers */
+  animation: float 3s ease-in-out infinite;
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+  margin-inline: 10px;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.download {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.4);
+}
+
+.download:hover {
+  background: linear-gradient(90deg, #16a34a, #15803d);
+  box-shadow: 0 6px 18px rgba(34, 197, 94, 0.55);
+}
+
+.download:active {
+  box-shadow: 0 3px 8px rgba(34, 197, 94, 0.35);
+}
+
+.docs {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.docs:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.55);
+}
+
+.docs:active {
+  box-shadow: 0 3px 8px rgba(59, 130, 246, 0.35);
+}
+
+.fullscreensection {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px); /* how high it floats up */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
